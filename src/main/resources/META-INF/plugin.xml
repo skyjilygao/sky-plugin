@@ -28,17 +28,10 @@
     </extensions>
     <actions>
         <action id="cn.skyjilygao.plugin.skyplugin.PopupDialogAction"
-                class="cn.skyjilygao.plugin.skyplugin.PopupDialogAction" text="PopupDialogAction"
-                description="Demo test">
-            <override-text place="MainMenu" text="Popup Dialog Action"/>
-            <keyboard-shortcut
-                    keymap="$default"
-                    first-keystroke="control alt A"
-                    second-keystroke="C"/>
-            <mouse-shortcut
-                    keymap="$default"
-                    keystroke="control button3 doubleClick"/>
+                class="cn.skyjilygao.plugin.skyplugin.PopupDialogAction" text="Sky Hello"
+                description="This is sky hello page this is sky hello page this is sky hello page">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt C"/>
         </action>
     </actions>
 </idea-plugin>

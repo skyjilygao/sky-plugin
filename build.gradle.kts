@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "cn.skyjilygao.plugin"
-version = "1.0-SNAPSHOT"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
