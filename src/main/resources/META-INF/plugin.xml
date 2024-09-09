@@ -24,7 +24,10 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <applicationConfigurable parentId="tools" instance="cn.skyjilygao.plugin.skyplugin.settings.AppSettingsConfigurable"
+                                 id="cn.skyjilygao.plugin.skyplugin.settings.AppSettingsConfigurable"
+                                 displayName="SDK: Application Settings Example"/>
+        <applicationService serviceImplementation="cn.skyjilygao.plugin.skyplugin.settings.AppSettings"/>
     </extensions>
     <actions>
         <action id="cn.skyjilygao.plugin.skyplugin.PopupDialogAction"
